@@ -1,5 +1,6 @@
 * {
     font-family: Ubuntu, sans-serif;
+    scroll-behavior: smooth;
 }
 
 #logo {
@@ -18,7 +19,7 @@
 }
 
 #title-subtitle {
-    color: gray;
+    color: #696969;
     margin: 0px;
     text-align: center;
 }
@@ -38,7 +39,6 @@
 .flex-item b {
     position: absolute;
     right: 20px;
-
 }
 
 a:link {
@@ -57,15 +57,31 @@ a:active {
     text-decoration: underline;
 }
 
-section {
+#cv {
+    height: 50vh;
+}
+
+#portfolio {
+    height: 90vh;
+}
+
+#skills {
+    height: 33vh;
+}
+
+#contact {
     height: 50vh;
 }
 
 .section-title {
     text-align: center;
-    color: gray;
+    color: #494949;
     border-bottom: 1px gray solid;
     padding-bottom: 10px;
+}
+
+ul i {
+    color: #696969;
 }
 
 section img {
@@ -84,23 +100,25 @@ section img {
     display: block;
     text-align: center;
     font-weight: bold;
-
 }
 
 p {
     font-weight: bold;
     text-align: center;
+    padding: 0px 0px 20px 0px;
+    color: #696969;
 }
 
 .skillsbar {
     height: 9px;
-    border: 1px gray solid;
+    border: 1px #696969 solid;
     border-radius: 10px;
     margin: 0px;
 }
 
 h3.skilltitle {
     margin: 15px 0px 3px 0px;
+    color: #696969;
 }
 
 #line-one {
@@ -125,8 +143,25 @@ h3.skilltitle {
 }
 
 .fab {
-    margin: 3px 20px 3px 10px;
+    vertical-align: middle;
+    margin: 3px 20px 5px 10px;
     color: dodgerblue;
     font-size: 38px;
+}
 
+.fas {
+    vertical-align: middle;
+    margin: 3px 20px 5px 10px;
+    color: dodgerblue;
+    font-size: 38px;
+}
+
+.sm {
+    margin: 0px;
+    font-size: 18px;
+    color: #696969;
+}
+
+h4 {
+    color: #696969;
 }
